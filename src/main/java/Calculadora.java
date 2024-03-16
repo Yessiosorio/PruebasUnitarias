@@ -1,21 +1,18 @@
 public class Calculadora {
 
-    public int sumar(int a, int b) {
+    public double sumar(double a, double b) {
         return a + b;
     }
 
-    public int restar(int a, int b) {
+    public double restar(double a, double b) {
         return a - b;
     }
 
-    public int multiplicar(int a, int b) {
+    public double multiplicar(double a, double b) {
         return a * b;
     }
 
-    public int dividir(int a, int b) {
-        if (b == 0) {
-            throw new IllegalArgumentException("No se puede dividir por cero");
-        }
+    public double dividir(double a, double b) {
         return a / b;
     }
 }

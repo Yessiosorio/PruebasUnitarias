@@ -13,7 +13,7 @@ public class CalculadoraTest {
     }
 
     @Test
-    public void TestSuma(){
+    public void TestSumar(){
         System.out.println("Probando suma");
         double resultado = calc.sumar(3, 2);
         assertEquals(5, resultado, 0.01);
@@ -21,14 +21,14 @@ public class CalculadoraTest {
         System.out.println("La suma dada es: "+resultado);
     }
     @Test
-    public void TestResta(){
+    public void TestRestar(){
         System.out.println("Probando resta");
         double resultado = calc.restar(15, 5);
         assertEquals(10.0, resultado, 0.001);
         System.out.println("La resta dada es: "+resultado);
     }
     @Test
-    public void TestMulti(){
+    public void TestMultiplicar(){
         System.out.println("Prueba multiplicacion ");
         double resultado = calc.multiplicar(2, 2);
         assertTrue(resultado == 4);
